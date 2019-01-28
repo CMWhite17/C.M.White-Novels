@@ -1,0 +1,193 @@
+
+.main-grid {
+  display: grid;
+  grid-template: repeat(5, 1fr) 1% 1% 1%/ repeat(12, 1fr);
+}
+.header {
+  display: grid;
+  grid-area: 1 / 1 / span 1 / 13;
+  z-index: 5;
+  background-color: black;
+}
+.overlap_banner {
+  display: grid;
+  grid-area: 5 / 2 / 5 / span 4;
+  z-index: 5;
+  font-family: fantasy;
+  color:#E2AC4E;
+  Text-align: center;
+  padding: 3%;
+
+}
+.navbar {
+  display: grid;
+  grid-area: 2 / 1 / 2 / 13;
+  text-align: center;
+  z-index: 5;
+}
+ul {
+  list-style-type: none;
+}
+li {
+  display:inline;
+  background-color: black; opacity: .8;
+  padding: 1.5%;
+}
+a {
+  font-size: 25px;
+  padding: 3%;
+  font-family: fantasy;
+  color: #E2AC4E;
+}
+.Winter_descript {
+  display: grid;
+  grid-area: 3 / 7 / span 2 / span 5;
+  z-index: 5;
+  background-color: White; opacity: .7;
+  padding-left: 10%;
+  padding-top: 5%;
+  padding-right: 10%;
+  font-size: 1.3rem;
+  font-family: fantasy;
+  font-weight: bolder;
+  color: #163078;
+  max-height: 100%;
+  text-align: center;
+}
+.Fall_descript {
+  display: grid;
+  grid-area: 3 / 7 / span 2 / span 5;
+  z-index: 5;
+  background-color: black; opacity: .7;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-right: 10%;
+  font-size: 1.5rem;
+  font-family:  fantasy;
+  color: #FB8039;
+  max-height: 100%;
+
+}
+.Winter_column{
+  display: grid;
+  grid-area: 3 / 2 / span 2 / span 4;
+  z-index: 5;
+}
+.About_column {
+  display: grid;
+  grid-area: 3 / 2 / span 2 / span 4;
+  z-index: 5;
+}
+.Fall_column {
+  display: grid;
+  grid-area: 3 / 8 / span 2 / span 4;
+  z-index: 5;
+}
+.About_me_write {
+  display: grid;
+  grid-area: 3 / 7 / span 2 / span 5;
+  z-index: 5;
+  background-color: black; opacity: .7;
+  padding-left: 10%;
+  padding-top: 10%;
+  padding-right: 10%;
+  font-size: 1.1rem;
+  font-family: fantasy;
+  color: #E2AC4E;
+  max-height: 100%;
+}
+.Fall_cover {
+  display:grid;
+  grid-area: 3 / 8 / span 2 / span 4;
+  z-index: 5;
+}
+.winter_cover {
+  display: grid;
+z-index: 5;
+  grid-area: 3 / 2 / span 2 / span 4;
+}
+.About {
+  display: grid;
+  z-index: 5;
+  grid-area: 3 / 2 / span 2 / span 4;
+}
+.Contact {
+  display: grid;
+  grid-area: 6 / 1 / span 3 / span 13;
+  text-align: center;
+  font-size: 18px;
+  font-family: fantasy;
+  color: #E2AC4E;
+  background-color: black; opacity: .7;
+}
+body{
+  background-image: url(https://2.bp.blogspot.com/-l4-5ITHkqFI/XDZzqHlqIlI/AAAAAAAAMw0/7nN7NCMNCIILp88K32TwHWi98CjHATUFwCLcBGAs/s1600/DDABB9D1-F3AF-4F30-A005-C8527E80FF39.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: black;
+  background-position: bottom;
+}
+.Fall_Back {
+  background-image: url(https://3.bp.blogspot.com/-skx5siB3K0M/XEk_4OTGPsI/AAAAAAAANAU/lqnTYnEl7w4sExNZmNW58MGBqSLgzrrEgCLcBGAs/s1600/FFEAF4CA-85FF-4952-B2C8-D1B5F4B70B5D.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+}
+.Winter_back {
+  background-image: url(https://2.bp.blogspot.com/-J82CLFp5v1k/XElAKpzfvJI/AAAAAAAANAg/KL3cQKCYu8Yrqahc4dmJfo0hVNY7FOjXwCLcBGAs/s1600/1012E030-14BC-4F93-90E2-B85B486C0816.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: black;
+  background-size: cover;
+}
+.aboutbody {
+  background-image: url(https://1.bp.blogspot.com/-3OubIBV_Bgc/XEN26CRw_RI/AAAAAAAAM_Y/NBiFqj6ph1UCW8W4XbIUSivoYsl92SV5gCLcBGAs/s1600/36D078CE-354C-499A-A448-E2EB8BDE5AED.jpeg);
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: center;
+  background-color: black;
+  background-size: cover;
+}
+.fall {
+  width: 100%;
+  height: auto;
+}
+.winter {
+  width: 100%;
+  height: auto;
+}
+
+@media only screen and (min-width: 601px) {
+   .Contact,
+  .About_me_write,
+   .Fall_descript,
+    .Winter_descript,
+    .overlap_banner,
+     a {
+    font-size: 1.3em;
+  }
+}
+@media only screen and (min-width: 1000px) {
+   .Contact,
+  .About_me_write,
+   .Fall_descript,
+    .Winter_descript,
+    .overlap_banner,
+     a {
+    font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 2000px) {
+   .Contact ,
+   .About_me_write ,
+   .Fall_descript ,
+    .Winter_descript ,
+    .overlap_banner,
+     a {
+    font-size: 3.0em;
+  }
+}
